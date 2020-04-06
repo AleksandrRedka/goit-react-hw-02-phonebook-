@@ -1,0 +1,21 @@
+.formCreate {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+.formCreate button {
+  border-radius: 10px;
+  padding: 5px 25px;
+  background: rgb(0, 126, 0);
+  font-size: 20px;
+  line-height: 24px;
+  transition: 500ms;
+  font-weight: 500;
+  color: #fff;
+}
+
+.formCreate button:hover {
+  transform: scale(1.1);
+}
