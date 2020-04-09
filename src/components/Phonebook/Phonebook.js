@@ -88,7 +88,7 @@ export default class Phonebook extends Component {
         <div className={styles.box}>
           <div className={styles.searchContact}>
             <h1>Search Contact</h1>
-            {contacts.length > 0 && (
+            {contacts.length > 1 && (
               <SearchContact
                 value={filter}
                 onChange={this.handleChangeInput}
